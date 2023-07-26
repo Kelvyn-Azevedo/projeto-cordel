@@ -11,9 +11,7 @@
 
 * {
     margin: 0px;
-    padding: 0px;
-    
-    
+    padding: 0px;        
 }
 
 body {
@@ -44,7 +42,7 @@ header h1{
     color: white;
     font-family: var(--fonte2);
     font-variant: small-caps;
-    font-size: 10vw; 
+    font-size: 8.5vw; 
     letter-spacing: 5px;       
 }
 
@@ -59,7 +57,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 
 section.normal {
