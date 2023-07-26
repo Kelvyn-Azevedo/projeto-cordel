@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(255, 209, 209);
+    text-align: justify;
+    
+}
+
+header a, footer a {
+    color: rgb(198, 43, 43);
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: 6px 2px 12px 0px rgba(0, 0, 0, 0.616);      
+}
+
+header h1{
+    padding-top: 50px;
+    color: white;
+    font-family: var(--fonte2);
+    font-variant: small-caps;
+    font-size: 10vw; 
+    letter-spacing: 5px;       
+}
+
+header p {
+    padding-bottom: 50px;
+    font-family: var(--fonte1);
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+    padding: 50px;
+    line-height: 2em;
+}
+
+section.imagem1 {
+    background: url(src/images/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 50vw;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452)    
+}
+
+section.imagem1 > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.401);
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+section.imagem2 {
+    background: url(src/images/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.451)
+}
+
+section.imagem2 > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.306);
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+    
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px;
+    text-align: center;    
+}
